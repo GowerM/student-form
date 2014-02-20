@@ -1,0 +1,47 @@
+/*==================
+        Basic
+====================*/
+
+h2 {
+  font-family: sans-serif;
+  padding: .5em 3em;
+  text-align: center;
+  color: white;
+  
+}
+
+small {
+  color: red;
+}
+
+body {
+  background: #2A4359; 
+}
+
+
+
+/*=====================
+          Form
+=======================*/
+
+label {
+  color: white;
+  font-family: sans-serif;
+}
+
+button {
+  background: #1D242E;
+  margin-left: 15px;
+}
+
+textarea {
+  height: 100px;
+}
+
+form {
+  padding: 3em;
+}
+
+input:focus {
+  
+}
