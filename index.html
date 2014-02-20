@@ -14,21 +14,73 @@
   	
   </head>
   <body>
-   <!-- Header and Nav -->
- <header>
+   
+<!-- Header-->
+   <div class="row">
+  <div class="large-12">
+<h2>Student Contact Form</h2>
+  </div>
+</div>
+<!--End Header-->
+
+
+<!--Form-->
+<form data-abide>
+  <div class="row">
+    <div class="large-6 columns">
+      <label>Name
+        <input type="text" placeholder="Joe Schmoe" required />
+      
+      <small class="error">First and Last name</small></label>
+    </div>
   
-    
-        <a href="index.html"><div class="logo"><p>MyEWU Portal Logo</p></div></a>
-        <nav>
-<ul>
-  <li>Lauren Awesomesauce</li>
-  <li><a href="preferences.html" class="nav">Preferences</a></li>
-  <li><a href="#" class="nav">Logout</a></li>
-</ul> 
-</nav> 
-  </header>
-  <!-- End Header and Nav -->
+  <div class="large-6 columns">
+      <label>Password
+        <input type="password" placeholder="Password" required />
+      <small class="error">Needs at least one capital</small>
+      </label>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="large-3 columns">
+      <label>Student Number
+        <input type="text" placeholder="00000000" required />
+      
+      <small class="error">Must have eight numbers and start with 00</small></label>
+    </div>
+    <div class="large-3 columns">
+      <label>Major
+        <input type="text" placeholder="VCD" />
+      </label>
+      
+    </div>
+    <div class="large-3 columns">
+      <label>Graduation Date
+        <input type="month" placeholder="June 2014" required />
+      
+      <small class="error">Month and year only</small></label>
+    </div>
+    <div class="large-3 columns">
+          <label>Email
+          <input type="email" placeholder="Janedoe@gmail.com" required />
+          <small class="error">Valid email</small></label>
+         </div>
+ </div>
+        <div class="row">
+    <div class="large-12 columns">
+      <label>Comments
+        <textarea placeholder="Any comments or feedback to make this form better?"></textarea>
+      </label>
+    </div>
   
+        <button type="submit" class="round">Submit</button>
+ </div>
+      </div>
+    </div>
+  </div>
+</form>
+  <!--End Form-->
 
   
     
