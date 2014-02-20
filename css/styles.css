@@ -2,12 +2,16 @@
         Basic
 ====================*/
 
-h2 {
+h1 {
   font-family: sans-serif;
-  padding: .5em 3em;
+  padding-top: 1em;
   text-align: center;
+  color: white; 
+}
+
+p {
   color: white;
-  
+  text-align: center;
 }
 
 small {
@@ -42,6 +46,3 @@ form {
   padding: 3em;
 }
 
-input:focus {
-  
-}
