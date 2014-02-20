@@ -1,0 +1,195 @@
+/*==========================
+			Main
+===========================*/
+
+body {
+  background: #4E9AB3;
+  width: 100%;
+  }
+
+
+.panel {
+	background: none;
+	border: none;
+  }
+
+header {
+  background: white;
+  padding: 2em;
+  margin: -10px -10px 0 -10px;
+  }
+
+footer {
+  background: #B38C64;
+  text-align: center;
+  color: #FFE0C1;
+  
+  opacity: .95;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  }
+
+footer:after {
+  content : ".";
+  display : block;
+  height : 0;
+  clear : both;
+  visibility : hidden;
+  }
+
+.logo {
+  width: 200px;
+  height: 150px;
+  background: red;
+  float: left;
+  margin-right: 30px;
+  margin-top: 0;
+  }
+
+/*==========================
+			Font
+===========================*/
+
+h2,
+h3 {
+  font-family: 'Ruda', sans-serif;
+  font-size: 1.5em;
+}
+
+h5 {
+  text-indent: 1em;
+  font-family: 'Duru Sans', sans-serif;
+}
+
+a {
+  font-family: 'Duru Sans', sans-serif;
+  font-size: 1em;
+  color: #FFE0C1;
+  
+}
+
+ p {
+  text-indent: 1em;
+  color: white;
+  font-family: 'Duru Sans', sans-serif;
+  font-size: .95em;
+  padding-left: 1em;
+  font-size: .75em;
+}
+
+/*==========================
+			Links and Lists
+===========================*/
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav li a {
+  color: #A10022;
+}
+
+nav li
+  {
+  display: inline;
+  color: #4E9AB3;
+}
+
+nav ul {
+  border-bottom: solid .25em black;
+  padding-top: 100px;
+}
+
+.nav {
+  margin-left: 2.5em;
+  color: #4E9AB3;
+}
+
+a:hover {
+  color: #A10022;
+}
+
+
+
+/*===========================
+          Sections
+=============================*/
+
+.rule {
+  border-bottom: 2px solid black;
+  
+}
+
+.rule:hover {
+  border-bottom: 2px solid #A10022;
+}
+
+.columns {
+  margin-top: 30px;
+}
+
+
+footer p {
+  padding-top: 20px;
+}
+
+.spacing {
+  width: 100%;
+  height: 200px;
+}
+
+/*===========================
+              img
+=============================*/
+
+    img {
+      width: 100px;
+    }
+
+/*===========================
+            Button
+=============================*/
+
+button {
+  background: none;
+  font-size: 1.5em;
+}
+
+button:hover {
+  background: #A10022;
+}
+
+
+/*============================
+        Preferences
+==============================*/
+
+input.checkbox {
+	margin-left: 5px;
+	
+}
+
+form {
+	margin-top: 20px;
+}
+
+
+
+.active {
+	
+	border: .5em solid #A10022 ;
+}
+
+input.color {
+	display: inline;
+	margin-top: 10px;
+}
+
+label {
+	margin-top: 5px;	
+}
